@@ -1,22 +1,11 @@
 import './App.css';
-import React, { Component } from 'react';
-import UserSection from './components/UserSection';
-import StopWatch from './components/StopWatch';
-import Ciao from './components/CiaoSection/Ciao';
+import BlockCounter from './components/BlockCounter';
 
-// function App() {
-//   return <>
-//   <UserSection />
-//   </>
-// }
-
-// export default App;
 
 function App() {
-    return <>
-    <Ciao name="Elon" id="1" />
-    <StopWatch />
-    </>
+    return (
+      <BlockCounter />
+    );
   }
   
   export default App;
